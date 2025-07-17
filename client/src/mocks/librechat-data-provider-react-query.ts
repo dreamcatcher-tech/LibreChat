@@ -1,0 +1,16 @@
+export const useAvailablePluginsQuery = () => ({ data: null, isLoading: false });
+export const useClearConversationsMutation = () => [() => {}, { isLoading: false }];
+export const useCreatePresetMutation = () => [() => {}, { isLoading: false }];
+export const useGetCustomConfigSpeechQuery = () => ({ data: null, isLoading: false });
+export const useGetModelsQuery = () => ({ data: [], isLoading: false });
+export const useGetSharedLinkQuery = () => ({ data: null, isLoading: false });
+export const useGetSharedMessages = () => ({ data: null, isLoading: false });
+export const useRegisterUserMutation = () => [() => {}, { isLoading: false }];
+export const useRequestPasswordResetMutation = () => [() => {}, { isLoading: false }];
+export const useResetPasswordMutation = () => [() => {}, { isLoading: false }];
+export const useUpdateFeedbackMutation = () => [() => {}, { isLoading: false }];
+export const useUpdateMessageContentMutation = () => [() => {}, { isLoading: false }];
+export const useUpdateMessageMutation = () => [() => {}, { isLoading: false }];
+export const useUpdateUserKeysMutation = () => [() => {}, { isLoading: false }];
+export const useUpdateUserPluginsMutation = () => [() => {}, { isLoading: false }];
+export const useUserKeyQuery = () => ({ data: null, isLoading: false });

@@ -1,0 +1,33 @@
+export const dataService = new Proxy({}, {
+  get: () => async () => ({})
+});
+export const QueryKeys: any = {};
+export const Constants: any = {};
+export const EModelEndpoint: any = {};
+export const LocalStorageKeys: any = {};
+export const SystemRoles: any = {};
+export const Permissions: any = {};
+export const PermissionTypes: any = {};
+export const defaultAgentFormValues: any = {};
+export const defaultAssistantFormValues: any = {};
+export const defaultAssistantsVersion: any = 1;
+export const defaultOrderQuery: any = {};
+export const Tools: any = {};
+export const Time = { FIVE_MINUTES: 300000, TEN_MINUTES: 600000 };
+export const isAssistantsEndpoint = () => false;
+export const isAgentsEndpoint = () => false;
+export const removeNullishValues = (v: any) => v;
+export const parseConvo = (v: any) => v;
+export const roleDefaults: any = {};
+export const getConfigDefaults = () => ({});
+export const defaultFileConfig: any = {};
+export const mergeFileConfig = (...args: any[]) => ({});
+export const specialVariables: any = {};
+export const agentCapabilities: any = {};
+export const Capabilities: any = {};
+export const AgentCapabilities: any = {};
+export const artifact: any = {};
+export const ArtifactModes: any = {};
+export const ComponentTypes: any = {};
+export const OptionTypes: any = {};
+export const useGetModelsQuery = () => ({ data: [], isLoading: false });

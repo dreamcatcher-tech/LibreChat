@@ -233,6 +233,8 @@ export default defineConfig(({ command }) => ({
       '~': path.join(__dirname, 'src/'),
       $fonts: path.resolve(__dirname, 'public/fonts'),
       'micromark-extension-math': 'micromark-extension-llm-math',
+      'librechat-data-provider/react-query': path.join(__dirname, 'src/mocks/librechat-data-provider-react-query.ts'),
+      'librechat-data-provider': path.join(__dirname, 'src/mocks/librechat-data-provider.ts'),
     },
   },
 }));
